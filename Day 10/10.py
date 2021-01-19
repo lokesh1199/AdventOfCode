@@ -9,7 +9,7 @@ c3 = c1 = 0
 for i, j in enumerate(a[:-1]):
     if j+1 == a[i+1]:
         c1 += 1
-    else:
+    elif j+3 == a[i+1]:
         c3 += 1
 
 print(c1*c3)
